@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, {useState } from 'react';
 import twoclubs from './JPEG/2C.jpg'
 import twodiamonds from './JPEG/2D.jpg'
 import twohearts from './JPEG/2H.jpg'
@@ -68,7 +68,6 @@ import acespades from './JPEG/AS.jpg'
 
 import './App.css';
 import { makeStyles, createStyles, Theme } from '@material-ui/core/styles';
-import Paper from '@material-ui/core/Paper';
 import Grid from '@material-ui/core/Grid';
 import Button from '@material-ui/core/Button';
 
