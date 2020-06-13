@@ -80,12 +80,7 @@ const useStyles = makeStyles((theme: Theme) =>
   createStyles({
     root: {
       flexGrow: 1,
-    },
-    paper: {
-      padding: theme.spacing(2),
-      textAlign: 'center',
-      color: theme.palette.text.secondary,
-    },
+    }
   }),
 );
 
@@ -124,7 +119,7 @@ function App() {
       <h1>Scuffed Acey-Ducey</h1>
       <Grid container spacing={3} >
         <Grid item xs>
-        {getNewCardOne && <img src={cards[cardOne]}></img> }
+        {getNewCardOne && <img  className="images" src={cards[cardOne]}></img> }
         <Button onClick={() => {setgetNewCardOne(true)
           setCardOne(pickCard())
         }
@@ -133,7 +128,7 @@ function App() {
           </Button>
         </Grid>
         <Grid item xs>
-        {getNewCardTwo && <img src={cards[cardTwo]}></img> }
+        {getNewCardTwo && <img  className="images" src={cards[cardTwo]}></img> }
         <Button onClick={() => {
           setgetNewCardTwo(true)
           setCardTwo(pickCard())
@@ -143,7 +138,7 @@ function App() {
           </Button>
         </Grid>
         <Grid item xs>
-        {getNewCardThree && <img src={cards[cardThree]}></img> }
+        {getNewCardThree && <img className="images" src={cards[cardThree]}></img> }
         <Button onClick={() => {
           setgetNewCardThree(true)
           setCardThree(pickCard())
@@ -154,7 +149,9 @@ function App() {
         </Grid>
       </Grid>
 
-      <Button onClick={() => {
+      <Grid container spacing={3}  direction="row" justify="center"alignItems="center">
+      <Grid item xs>
+      <Button className="resetButton" onClick={() => {
         setgetNewCardOne(false)
         setgetNewCardTwo(false)
         setgetNewCardThree(false)
@@ -164,6 +161,9 @@ function App() {
       }} variant="contained" color="primary">
           RESET
       </Button>
+      </Grid>
+      </Grid>
+
     </div>
   );
 }
