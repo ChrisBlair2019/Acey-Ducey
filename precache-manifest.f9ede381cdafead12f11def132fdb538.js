@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4a7291ff9d7db083778d6bda58d2b758",
+    "revision": "3c6555d5af88643b1006580b893ef2e0",
     "url": "/Acey-Ducey/index.html"
   },
   {
-    "revision": "25d84a88d981278fd1b0",
+    "revision": "fa0fda432f126e251ed2",
     "url": "/Acey-Ducey/static/css/main.34b2b43d.chunk.css"
   },
   {
-    "revision": "bb2a5e4cb95117170501",
-    "url": "/Acey-Ducey/static/js/2.a64ea138.chunk.js"
+    "revision": "93c3f672c67f5febebc6",
+    "url": "/Acey-Ducey/static/js/2.5d80721c.chunk.js"
   },
   {
     "revision": "0749163b59fbee32225059cb60c18af6",
-    "url": "/Acey-Ducey/static/js/2.a64ea138.chunk.js.LICENSE.txt"
+    "url": "/Acey-Ducey/static/js/2.5d80721c.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "25d84a88d981278fd1b0",
-    "url": "/Acey-Ducey/static/js/main.e9aa5a8e.chunk.js"
+    "revision": "fa0fda432f126e251ed2",
+    "url": "/Acey-Ducey/static/js/main.9f196583.chunk.js"
   },
   {
     "revision": "2caa6835dad1714f5b02",
@@ -230,5 +230,9 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "5b6749fd8039f505f88a11782e3007f2",
     "url": "/Acey-Ducey/static/media/QS.5b6749fd.jpg"
+  },
+  {
+    "revision": "c5738ed604b8411884c6dce7c82f74b0",
+    "url": "/Acey-Ducey/static/media/cardflip.c5738ed6.mp3"
   }
 ]);

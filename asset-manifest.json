@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/Acey-Ducey/static/css/main.34b2b43d.chunk.css",
-    "main.js": "/Acey-Ducey/static/js/main.e9aa5a8e.chunk.js",
-    "main.js.map": "/Acey-Ducey/static/js/main.e9aa5a8e.chunk.js.map",
+    "main.js": "/Acey-Ducey/static/js/main.9f196583.chunk.js",
+    "main.js.map": "/Acey-Ducey/static/js/main.9f196583.chunk.js.map",
     "runtime-main.js": "/Acey-Ducey/static/js/runtime-main.2a3fac0a.js",
     "runtime-main.js.map": "/Acey-Ducey/static/js/runtime-main.2a3fac0a.js.map",
-    "static/js/2.a64ea138.chunk.js": "/Acey-Ducey/static/js/2.a64ea138.chunk.js",
-    "static/js/2.a64ea138.chunk.js.map": "/Acey-Ducey/static/js/2.a64ea138.chunk.js.map",
+    "static/js/2.5d80721c.chunk.js": "/Acey-Ducey/static/js/2.5d80721c.chunk.js",
+    "static/js/2.5d80721c.chunk.js.map": "/Acey-Ducey/static/js/2.5d80721c.chunk.js.map",
     "index.html": "/Acey-Ducey/index.html",
-    "precache-manifest.2befe612a356e18215c1f98f712604a9.js": "/Acey-Ducey/precache-manifest.2befe612a356e18215c1f98f712604a9.js",
+    "precache-manifest.f9ede381cdafead12f11def132fdb538.js": "/Acey-Ducey/precache-manifest.f9ede381cdafead12f11def132fdb538.js",
     "service-worker.js": "/Acey-Ducey/service-worker.js",
     "static/css/main.34b2b43d.chunk.css.map": "/Acey-Ducey/static/css/main.34b2b43d.chunk.css.map",
-    "static/js/2.a64ea138.chunk.js.LICENSE.txt": "/Acey-Ducey/static/js/2.a64ea138.chunk.js.LICENSE.txt",
+    "static/js/2.5d80721c.chunk.js.LICENSE.txt": "/Acey-Ducey/static/js/2.5d80721c.chunk.js.LICENSE.txt",
     "static/media/10C.jpg": "/Acey-Ducey/static/media/10C.354b7b1e.jpg",
     "static/media/10D.jpg": "/Acey-Ducey/static/media/10D.13a231b8.jpg",
     "static/media/10H.jpg": "/Acey-Ducey/static/media/10H.d0a839fe.jpg",
@@ -63,12 +63,13 @@
     "static/media/QC.jpg": "/Acey-Ducey/static/media/QC.e40a157b.jpg",
     "static/media/QD.jpg": "/Acey-Ducey/static/media/QD.81deb606.jpg",
     "static/media/QH.jpg": "/Acey-Ducey/static/media/QH.87f96511.jpg",
-    "static/media/QS.jpg": "/Acey-Ducey/static/media/QS.5b6749fd.jpg"
+    "static/media/QS.jpg": "/Acey-Ducey/static/media/QS.5b6749fd.jpg",
+    "static/media/cardflip.mp3": "/Acey-Ducey/static/media/cardflip.c5738ed6.mp3"
   },
   "entrypoints": [
     "static/js/runtime-main.2a3fac0a.js",
-    "static/js/2.a64ea138.chunk.js",
+    "static/js/2.5d80721c.chunk.js",
     "static/css/main.34b2b43d.chunk.css",
-    "static/js/main.e9aa5a8e.chunk.js"
+    "static/js/main.9f196583.chunk.js"
   ]
 }
