@@ -70,7 +70,11 @@ import './App.css';
 import { makeStyles, createStyles, Theme } from '@material-ui/core/styles';
 import Grid from '@material-ui/core/Grid';
 import Button from '@material-ui/core/Button';
+import UIfx from 'uifx';
 
+const cardSFX = require("./cardflip.mp3")
+
+const flipCardSFX = new UIfx(cardSFX)
 
 var cards = [twoclubs, twoclubs, twodiamonds, twohearts, twospades, threeclubs, threediamonds, threehearts, threespades, fourclubs, fourdiamonds, fourhearts, fourspades, fiveclubs, fivediamonds, fivehearts, fivespades, sixclubs, sixdiamonds, sixhearts, sixspades, sevenclubs, sevendiamonds, sevenhearts, sevenspades, eightclubs, eightdiamonds, eighthearts, eightspades, nineclubs, ninediamonds, ninehearts, ninespades, tenclubs, tendiamonds, tenhearts, tenspades, jackclubs, jackdiamonds, jackhearts, jackspades, queenclubs, queendiamonds, queenhearts, queenspades, kingclubs, kingdiamonds, kinghearts, kingspades, aceclubs, acediamonds, acehearts, acespades]
 
@@ -106,6 +110,8 @@ function App() {
 
 
   const pickCard = () => {
+
+    flipCardSFX.setVolume(1).play()
 
     var min = Math.ceil(1);
     var max = Math.floor(53);
